@@ -17,6 +17,7 @@ summary, h2 {
 }
 
 summary {
+    outline:none;
     cursor:pointer;
 }
 
