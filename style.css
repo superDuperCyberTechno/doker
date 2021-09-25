@@ -13,8 +13,11 @@ body {
 summary, h2 {
     font-size:1.5rem;
     font-weight:bold;
-    cursor:pointer;
     user-select:none;
+}
+
+summary {
+    cursor:pointer;
 }
 
 p:first-of-type {
