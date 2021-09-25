@@ -1,5 +1,5 @@
-# Doker
-## A decidedly uninformed remake of poker
+![Doker logo](https://raw.githubusercontent.com/superDuperCyberTechno/doker/main/doker_logo.png)
+### A decidedly uninformed remake of poker
 
 This is the official repository for the open source board game Doker. The rules are maintained in the index.html along with every other relevant piece of information. This project uses GitHub Pages to serve the website.
 
