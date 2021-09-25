@@ -10,139 +10,168 @@
     <body>
         <div id="content">
             <img id="logo" src="doker_logo.png" alt="">
-            <h3>
-                <i>
-                    <i>Doker</i> is a super simple, betting game that uses dominoes, dice and chips.
-                </i>
-            </h3>
-
             <h2>
-                What you need
+                A decidedly uninformed remake of poker
             </h2>
-            <ul>
-                <li>
+
+            <p>
+                The original author of this game likes poker. But he does not know how to play it, neither does he intend to learn. Instead he chose to squeeze a bunch of assumptions about the game into a whole new game. The vision was simple: It must be easy to assemble, learn and play.
+                <br>
+                The result is a game that doesn't use a deck of cards or middle-aged, balding guys with bowling shirts and sunglasses. Instead it uses dice and dominoes to approximate a refined and somewhat lobotomized version of poker.
+                <br>
+                The resulting game is - according to the author - better than poker.
+            </p>
+            <p>
+                Doker is <a href="https://github.com/superDuperCyberTechno/doker">open source</a> and contributions are very welcome.
+            </p>
+
+            <details>
+                <summary>
+                    What you need
+                </summary>
+                <p>
                     1 double-six standard set of dominoes
-                </li>
-                <li>
+                    <br>
                     2 standard six-sided dice.
-                </li>
-                <li>
+                    <br>
                     A lot of chips.
-                </li>
-            </ul>
+                </p>
+            </details>
 
-            <h2>
-                Gameplay
-            </h2>
-            <p>
-                <strong>
-                    0. Setup
-                </strong>
-                <br>
-                Decide on a dealer.
-                <br>
-                Place all dominoes face down on the table.
-                <br>
-                Every player is given 3 dominoes from the domino pool.
-            </p>
+            <details>
+                <summary>
+                    Gameplay
+                </summary>
 
-            <p>
-                <strong>
-                    1. First roll
-                </strong>
-                <br>
-                The dealer adds one chip to the pot and rolls one die.
-            </p>
-            <p>
-                <strong>
-                    2. First bet
-                </strong>
-                <br>
-                Every player decides (see <a href="#evaluating-dominoes"><i>Evaluating dominoes</i></a>) if they want to bet on the outcome - in a clockwise fashion, starting with the dealer.
-                <br>
-                If a player wants to bet, he/she plays their chosen domino face down on the table and the dealer adds a chip the pot. The betting round ends when it loops around to the dealer.
-            </p>
+                <p>
+                    <strong>
+                        0. Setup
+                    </strong>
+                    <br>
+                    Decide on a dealer.
+                    <br>
+                    Place all dominoes face down on the table. - This is your domino pool.
+                    <br>
+                    Every player is given 3 dominoes from the domino pool.
+                </p>
 
-            <p>
-                <strong>
-                    3. First check
-                </strong>
-                <br>
-                If only one player participated in the first bet, he/she wins the round and you go directly to 7.
-            </p>
+                <p>
+                    <strong>
+                        1. First roll
+                    </strong>
+                    <br>
+                    The dealer adds one chip to the pot and rolls one die.
+                </p>
+                <p>
+                    <strong>
+                        2. First bet
+                    </strong>
+                    <br>
+                    Every player decides (see <a href="#evaluating-dominoes"><i>Evaluating dominoes</i></a>) if they want to bet on the outcome - in a clockwise fashion, starting with the dealer. Any player that decides not to participate is excluded from the rest of the round.
+                    <br>
+                    If a player wants to bet, he/she plays their chosen domino face down on the table. One chip is added to the pot for every betting player. The betting round ends when it loops around to the dealer.
+                </p>
 
-            <p>
-                <strong>
-                   4. Second roll
-                </strong>
-                <br>
-                The dealer rolls the second die.
-            </p>
+                <p>
+                    <strong>
+                        3. First check
+                    </strong>
+                    <br>
+                    If only one player participated in the first bet, he/she wins the round and you go directly to 7.
+                </p>
 
-            <p>
-                <strong>
-                    5. Second bet
-                </strong>
-                <br>
-                Every player with an active bet decides - in a clockwise fashion, starting with the dealer - if they still want to continue.
-                <br>
-                For every continuing player, the dealer adds one chip to the pot.
-            </p>
+                <p>
+                    <strong>
+                        4. Second roll
+                    </strong>
+                    <br>
+                    The dealer rolls the second die.
+                </p>
 
-            <p>
-                <strong>
-                    6. Second check
-                </strong>
-                <br>
-                If only one player participated in the second bet, he/she wins the round and you go directly to 7.
-                <br>
-                Every participating player - in a clockwise fashion, starting with the dealer - flips their played domino. The player with the highest valued domino (see <a href="#evaluating-dominoes"><i>Evaluating dominoes</i></a>) wins the round.
-            </p>
+                <p>
+                    <strong>
+                        5. Second bet
+                    </strong>
+                    <br>
+                    Every player decides (see <a href="#evaluating-dominoes"><i>Evaluating dominoes</i></a>) if they still want to participate - in a clockwise fashion, starting with the dealer. Any player that decides not to continue is excluded from the rest of the round.
+                    <br>
+                    For every participating player, one chip is added to the pot.
+                </p>
 
-            <p>
-                <strong>
-                    7. Conclusion
-                </strong>
-                <br>
-                The winner is awarded all chips in the pot.
-                <br>
-                All played dominoes are added back to the domino pool.
-                <br>
-                If any player has no dominoes left, he/she can buy more from the domino pool at 1 chip per domino. Any chips spent this way is added to the next round's pot. Players cannot have more than 3 dominoes in their hand at any time.
-                <br>
-                Shuffle the domino pool.
-                <br>
-                The player on the dealer's left is the next round's dealer.
-                <br>
-                Restart the round (go to 1).
-            </p>
+                <p>
+                    <strong>
+                        6. Second check
+                    </strong>
+                    <br>
+                    If only one player participated in the second bet, he/she wins the round and you go directly to 7.
+                    <br>
+                    Every participating player - in a clockwise fashion, starting with the dealer - flips their played domino. The player with the highest valued domino (see <a href="#evaluating-dominoes"><i>Evaluating dominoes</i></a>) wins the round.
+                </p>
 
-            <p>
-                <strong>
-                    End
-                </strong>
-                <br>
-                The game can be played indefinitely, on a timer or until a set chip sum has been reached.
-            </p>
+                <p>
+                    <strong>
+                        7. Conclusion
+                    </strong>
+                    <br>
+                    The winner is awarded all chips in the pot.
+                    <br>
+                    All played dominoes are added back to the domino pool. The domino pool is then shuffled.
+                    <br>
+                    If any player has no dominoes left, he/she can buy more from the domino pool at 1 chip per domino. Any chips spent this way is added to the next round's pot. Players cannot have more than 3 dominoes in their hand at any time.
+                    <br>
+                    The player on the dealer's left is the next round's dealer.
+                    <br>
+                    Restart the round (go to 1).
+                </p>
+            </details>
 
-            <h2 id="evaulating-dominoes">
-                Evaluating dominoes
-            </h2>
-            The main goal is to play the highest graded domino when compared to the 2 dice. The dice dictates what values the dominoes need to consist of.
-            The 2 values on the dominoes match one dice, respectively. - Thus, both domino values are always evaluated.
+            <details>
+                <summary>
+                    Evaluating dominoes
+                </summary>
 
-            To evaluate a domino grading, do the following:
-            <ol>
-                <li>
-                    Check if there are any hard matches (2 hard matches always win the bet). A hard match is any number that exist on both domino and dice.
-                </li>
-                <li>
-                    Within any remaining domino values, determine soft matches. A soft match is any blank domino value, this always matches to the highest non-matched value.
-                </li>
-                <li>
+                <h3>UNDER CONSTRUCTION</h3>
 
-                </li>
-            </ol>
+                <p>
+                    The main goal is to play the highest graded domino when compared to the 2 dice. The dice dictates what values the dominoes need to consist of.
+                    The 2 values on the dominoes match one dice, respectively. - Thus, both domino values are always evaluated.
+                </p>
+
+                To evaluate a domino grading, do the following:
+                <ol>
+                    <li>
+                        Check if there are any hard matches (2 hard matches always win the bet). A hard match is any number that exist on both domino and dice.
+                    </li>
+                    <li>
+                        Within any remaining domino values, determine soft matches. A soft match is any blank domino value, this always matches to the highest non-matched value.
+                    </li>
+                    <li>
+
+                    </li>
+                </ol>
+            </details>
+
+            <details>
+                <summary>
+                    Variants
+                </summary>
+                <p>
+                    <strong>
+                        Casino mode
+                    </strong>
+                    <br>
+                    If you're the kind of maniac that likes to play with real money, this mode is for you. Basically, all chips have a fixed monetary value and are supplied by players themselves.
+                    <br>
+                    On first roll, the chip is supplied by the dealer.
+                    <br>
+                    On first, - and second bet, all chips are supplied by the betting player.
+                    <br>
+                    At the end of the conclusion, players are allowed to purchase new chips with their own money.
+                    <br>
+                    If if player has no chips, he/she cannot be dealer or participate in bets.
+                </p>
+
+            </details>
         </div>
     </body>
 </html>

@@ -10,6 +10,17 @@ body {
     padding:5vw;
 }
 
+summary, h2 {
+    font-size:1.5rem;
+    font-weight:bold;
+    cursor:pointer;
+    user-select:none;
+}
+
+p:first-of-type {
+    margin-top:0 !important;
+}
+
 #content {
     max-width:1000px;
     margin:0 auto;
