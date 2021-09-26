@@ -22,7 +22,11 @@ summary {
 }
 
 p:first-of-type {
-    margin-top:0 !important;
+    margin-top:3px !important;
+}
+
+ol {
+    margin-top:0;
 }
 
 #content {
