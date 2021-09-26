@@ -25,7 +25,7 @@ p:first-of-type {
     margin-top:3px !important;
 }
 
-ol {
+ol,ul {
     margin-top:0;
 }
 

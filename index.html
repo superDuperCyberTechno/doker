@@ -14,7 +14,7 @@
             <h2>
                 A decidedly uninformed remake of poker
                 <br>
-                Version 0.9
+                Version 0.9.1
             </h2>
 
             <p>
@@ -32,15 +32,20 @@
                 <summary>
                     What you need
                 </summary>
-                <p>
-                    1 double-six standard set of dominoes (28 pieces).
-                    <br>
-                    2 standard six-sided dice.
-                    <br>
-                    A lot of chips (or any other token).
-                    <br>
-                    2-9 players.
-                </p>
+                <ul>
+                    <li>
+                        1 double-six standard set of dominoes (28 pieces).
+                    </li>
+                    <li>
+                        2 standard six-sided dice.
+                    </li>
+                    <li>
+                        A lot of chips (or any other token).
+                    </li>
+                    <li>
+                        2-9 players.
+                    </li>
+                </ul>
             </details>
 
             <details>
@@ -49,7 +54,7 @@
                 </summary>
 
                 <p>
-                    First: Decide on a dealer. Place all dominoes face down on the table (domino pool). Every player receives 3 dominoes. Make a chip pool (10 chips for every player).
+                    Decide on a dealer. Place all dominoes face down on the table (domino pool). Every player receives 3 dominoes. Make a chip pool (10 chips for every player).
                 </p>
 
                 <strong>
@@ -108,18 +113,33 @@
                         The player on the dealer's left is the next round's dealer.
                     </li>
                     <li>
-                        If the remaining amount of chips is less than amount of players times 2 + 1, go to 5. - In a game with 4 players, the chip pool must have 9 or more chips.
-                    </li>
-                    <li>
-                        If there are chips left in the pool, go to 1. If not, the game is over.
+                        Endgame starts when the remaining amount of chips is less than 1 + the amount of players times 2. IE: In a game with 4 players, the chip pool must have 9 or more chips (1+4*2). If not then the endgame begins.
+                        <br>
+                        If the endgame was not started, go to 1.
                     </li>
                 </ol>
 
                 <strong>
-                    5. Endgame
+                    Endgame
                 </strong>
                 <ol>
                     <li>
+                        All remaining chips are added to the pot.
+                    </li>
+                    <li>
+                        Dealer rolls the first die.
+                    </li>
+                    <li>
+                        Everyone plays a domino.
+                    </li>
+                    <li>
+                        Dealer rolls the second die.
+                    </li>
+                    <li>
+                        Flip dominoes.
+                    </li>
+                    <li>
+                        Winner gets the pot and every player's chip pool is counted and the final winner is determined.
                     </li>
                 </ol>
 
@@ -127,9 +147,10 @@
                     TLDR
                 </strong>
                 <br>
-                Chip, die, domino, die, winner, restart.
+                Add chip, roll die, play dominoes, roll die, declare winner, repeat.
                 <br>
                 <br>
+
             </details>
 
             <details>
